@@ -22,7 +22,6 @@ h1 {
   font-size: 36px;
   line-height: 2;
   padding-top: 50px;
-  padding-bottom: auto;
 }
 
 p {
@@ -49,6 +48,10 @@ p {
   width: 100%;
   height: auto;
   max-width: 400px;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
 
 .btn-branding {
@@ -81,6 +84,12 @@ p {
 
 /*WORK*/
 
+.h1-work {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
 .hero-work {
   background: var(--background-color);
   margin-top: 100px;
@@ -91,28 +100,22 @@ p {
   font-weight: normal;
 }
 
-.btn-branding-outline {
-  background: var(--background-color);
-  color: var(--primary-color);
-  cursor: pointer;
-  border-radius: 5px;
-  border: 2px solid var(--primary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  font-family: var(--heading-font-family);
-}
-
-.btn-branding-outline :hover {
-  background: var(--primary-color);
-  color: var(--background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  line-height: 30px;
-  padding: 15px 40px;
-  font-size: 20px;
-  transition: all 200ms ease-in-out;
-}
-
 img {
   border: 3px solid var(--primary-color);
   border-radius: 15px;
   max-width: 100%;
+}
+
+.btn-branding-outline {
+  background: var(--background-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0px, 4px, 4px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  background: var(--primary-color);
+  color: var(--background-color);
 }
