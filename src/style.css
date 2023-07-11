@@ -1,8 +1,82 @@
+:root {
+  --primary-color: #116a7b;
+  --secondary-color: #cdc2ae;
+  --background-color: #ece5c7;
+  --elements-color: #c2dedc;
+  --heading-font-family: "Red Hat Display", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+/*homepage*/
+body {
+  font-family: var(--default-font-family);
+}
+
 h1 {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  font-size: 36px;
+  line-height: 2;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hero {
+  background: var(--background-color);
+  padding: 170px 20px;
+}
+
+.hero p {
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.bio {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.photo {
+  border-radius: 5px;
+  border: 1px solid black;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  line-height: 30px;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+
+.btn-branding:hover {
+  background: var(--background-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+.icons {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--primary-color);
 }
