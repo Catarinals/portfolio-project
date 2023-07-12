@@ -25,7 +25,6 @@ body {
 
 p {
   font-weight: normal;
-  font-weight: bold;
   font-size: 20px;
 }
 
@@ -74,6 +73,13 @@ p {
   display: flex;
   justify-content: space-evenly;
   color: var(--primary-color);
+  font-size: 50px;
+}
+
+.icons :hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  cursor: pointer;
 }
 
 /*WORK*/
@@ -121,3 +127,20 @@ img {
     text-align: center;
   }
 }
+
+/*ABOUT ME*/
+
+.about-icons {
+  color: var(--primary-color);
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+}
+
+.about-icons :hover {
+  background: var(--primary-color);
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+/*CONTACT*/
