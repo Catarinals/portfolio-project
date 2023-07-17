@@ -123,14 +123,8 @@ img {
 
 @media (max-width: 900px) {
   .project-description {
-    padding: 0;
-    text-align: center;
-  }
-}
-
-@media (max-width: 765px) {
-  .container {
-    text-align: center !important;
+    padding: 10px;
+    margin-left: 10px;
   }
 }
 
