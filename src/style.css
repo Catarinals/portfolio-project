@@ -8,8 +8,18 @@
 }
 
 /*homepage*/
+.nav-link.active {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  padding: 0 15px;
+}
+
 .nav-link:hover {
-  text-decoration: underline;
+  color: var(--elements-color);
+  font-weight: bold;
 }
 
 body {
@@ -78,8 +88,7 @@ p {
 }
 
 .icons :hover {
-  background: var(--primary-color);
-  color: var(--background-color);
+  color: var(--elements-color);
   cursor: pointer;
 }
 
@@ -139,7 +148,6 @@ img {
 }
 
 .about-icons :hover {
-  background: var(--primary-color);
-  color: var(--background-color);
+  color: var(--elements-color);
   cursor: pointer;
 }
