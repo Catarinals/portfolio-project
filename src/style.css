@@ -146,6 +146,10 @@ img {
 }
 
 /*ABOUT ME*/
+.paragraph-about {
+  text-align: justify;
+}
+
 
 .about-icons {
   color: var(--primary-color);
@@ -160,6 +164,18 @@ img {
 .mail-content .email-link:hover {
   color: var(--elements-color);
   cursor: pointer;
+}
+
+.tv-channel,
+.film-studio {
+  text-decoration: none;
+  text-transform: none;
+  color: var(--secondary-color);
+}
+
+.tv-channel:hover,
+.film-studio:hover {
+  color: var(--elements-color);
 }
 
 
