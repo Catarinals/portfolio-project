@@ -142,10 +142,14 @@ img {
   .project-description {
     padding: 10px;
     margin-left: 10px;
+    height: 300px;
+    width: 300px;
+    text-align: justify;
   }
 }
 
 /*ABOUT ME*/
+
 .paragraph-about {
   text-align: justify;
 }
