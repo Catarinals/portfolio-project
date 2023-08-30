@@ -112,6 +112,12 @@ p {
   font-size: 25px;
 }
 
+.hero-work h3 {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 .p-work {
   font-weight: normal;
 }
@@ -145,6 +151,14 @@ img {
     height: 300px;
     width: 300px;
     text-align: justify;
+  }
+
+  .hero-work h3 {
+    font-size: 17px;
+  }
+
+  .p-work {
+    font-size: 18px;
   }
 }
 
