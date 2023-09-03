@@ -168,6 +168,11 @@ img {
   .p-work {
     font-size: 18px;
   }
+
+  .about-section-content h1 {
+    margin-left: 0px;
+    padding: 0px;
+  }
 }
 
 /*ABOUT ME*/
