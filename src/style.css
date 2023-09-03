@@ -153,8 +153,16 @@ img {
     text-align: justify;
   }
 
+  .hero-work h1 {
+    margin-left: 10px;
+    padding: 10px;
+  }
+
   .hero-work h3 {
     font-size: 17px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: justify;
   }
 
   .p-work {
